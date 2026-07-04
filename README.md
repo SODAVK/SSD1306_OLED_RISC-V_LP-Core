@@ -124,7 +124,6 @@ Include the header file inside your LP Core source code (`ulp/main.c`):
 * `void oled_lp_set_contrast(uint8_t contrast);` — Matrix brightness (0x00 .. 0xFF).
 * `void oled_lp_set_inversion(bool invert);` — Screen color inversion (true = inverted).
 * `void oled_lp_set_rotation_180(bool rotate);` — Rotate display 180 degrees.
-* `void oled_lp_set_pump(oled_pump_volt_t v);` — Set charge pump voltage (OLED_PUMP_7_5V .. OLED_PUMP_10_0V).
 
 ### Frame Buffer & Synchronization
 * `void oled_lp_clear_buffer(void);` — Clear local RAM buffer (1024 bytes) to zero.
